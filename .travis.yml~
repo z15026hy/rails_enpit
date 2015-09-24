@@ -1,0 +1,12 @@
+language: ruby
+rvm:
+- 2.2.2
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: heroku
+  api_key:
+    secure: ZSbicKgcYK5GxO7L5RCHEhIsvpjHAKF9MGn92XjEWqsO8tD6jCPZZ9SQNEqw7aayinSX7aXseIGYtD4GhsW66tKTUJCv+4Zs8Q7DcxUACRrhjITi0kSxD4GP4pfzCiCgGjNXAIArJZXlZxOp7I2w8j65wN23rhi2RtR0fFH1DrwNaRoXEEZP41echnXqoi679bqqybZnMwfnwfKuZQuUoRzdmqc5QtHl5RNY0EuqZfZwkbGCge+uFcC1uPbuWB3+IbPaS4aGRigMjw1R+/hoa6xl+Q7BG1LV3wclElnq2NqVt1VF4zBS9Lls8jpJPRj92NaK5Xv9+FIwOY3+IUHTKispl7QwvmHxKMVL8acy7GObsR7yQ21zqYOeFgSo06dAguONPsGE3nUj18JX/znzrpPCXrS3moFdak5W5dnwR1pl29Cxili2N4dJhi+qAMu+mSK2/001A+ghJN9MTUAAc2ssJr3udIllSdNjdpvAZ6Tx05dGsO65E4rZsqsqVAvXawWB/VDdNO9pcFvrwBO1B5FtXj3LmsAgGeql5U20NyOAM5GYLdHeN9/RLJs+sFsACx+aGw1S5AjBtdsc97Z05HQghhRiZU7CXKEd0U91gq1l6FaUWtzWbB+g0uyB6AhjdVaQ0m8/Aajk5iJgWBVNkP1V/mpL/7g3kBZWTt4N+wQ=
+  app: safe-waters-9670
+  on:
+    repo: z15026hy/rails_enpit
